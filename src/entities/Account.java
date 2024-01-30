@@ -50,5 +50,15 @@ public class Account {
 		this.withdrawLimit = withdrawLimit;
 	}
 	
+	//account deposit method
+	public void deposit(double amount) {
+		balance += amount;
+	}
+	
+	//account withdrawal method
+	public void withdraw(double amount) {
+		balance -= amount;
+	}
+	
 	
 }
