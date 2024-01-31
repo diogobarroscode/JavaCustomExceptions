@@ -82,6 +82,6 @@ Se o valor do saque for maior que o saldo da conta o programa deve retornar erro
 
 ## 📢 Contato
 
-🌐 [linkedin.com/in/diogobarros-code](https://www.linkedin.com/in/diogobarroscode/)
+🌐 [linkedin.com/in/diogobarroscode](https://www.linkedin.com/in/diogobarroscode/)
 
 📧 [diogobarros.code@gmail.com](diogobarros.code@gmail.com)
