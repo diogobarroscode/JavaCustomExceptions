@@ -11,9 +11,8 @@ Programa que implementa regras de saque em uma conta utilizando tratamento de ex
 ## 📄 Task
 
 Fazer um programa para ler os dados de uma conta bancária, realizar um saque nesta conta e mostrar o novo saldo.
-
-- Case1: O saque não pode ocorrer se não houver saldo sufuciente na conta.
-- Case2: O saque não pode ocorrer se o valor for superior ao limite de saque.
+- O saque não pode ocorrer se não houver saldo sufuciente na conta.
+- O saque não pode ocorrer se o valor for superior ao limite de saque.
 
 ## ☕️Classe: Account
 |Account         |         |
