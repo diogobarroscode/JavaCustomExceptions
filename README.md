@@ -1,7 +1,7 @@
 <h1 align="center"> Java Custom Exceptions </h1>
 
 <p align="center">
-Programa que implementa regras de saque em uma conta utilizando tratamento de exceções customizadas.
+Programa que implementa regras de saque em uma conta utilizando tratamento de exceções customizadas. Exercício sobre Exceptions do curso de Java - Nélio Alves.
 </p>
 <br>
 
