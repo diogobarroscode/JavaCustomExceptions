@@ -4,6 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 import entities.Account;
+import exceptions.BusinessException;
 
 public class Program {
 
@@ -33,12 +34,25 @@ public class Program {
 		System.out.println();
 		System.out.println("Informe o valor do saque: ");
 		double amount = sc.nextDouble();
-		
 		System.out.println();
-		acc.withdraw(amount);
-		System.out.printf("Saque realizado com sucesso! \nSaldo atual: %.2f%n", acc.getBalance());
 		
-		sc.close();
+		
+		//error handling using custom exception
+		try {
+			
+			acc.withdraw(amount);
+			System.out.printf("Saque realizado com sucesso! \nSaldo atual: %.2f%n", acc.getBalance());
+			
+		} catch (BusinessException e) {
+			
+			System.err.println(e.getMessage());
+			
+		} finally {
+			
+			sc.close();
+			
+		}
+
 
 	}
 
